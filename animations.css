@@ -1,0 +1,30 @@
+.container{
+    width: 1000px;
+    height: 500px;
+    /* animation-name: Tolu;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    animation: Tolu 10s ease-in-out 2s infinite normal;
+}
+@keyframes Tolu{
+    0%{
+        background-image: url(pic2.jpg);
+    }
+    25%{
+        background-image: url(pic.webp);
+    }
+    50%{
+        background-image: url(b.jpg);
+    }
+    75%{
+        background-image: url(a.jpg);
+    }
+    100%{
+        background-image: url(c.jpg);
+    }
+
+
+}
